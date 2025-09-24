@@ -26,17 +26,25 @@ This course was created by **Madecraft**. You can find the original course on Li
 
 ```
 ├── README.md
-├── data/                     # Datasets used in the exercises (if any)
-├── module_1/
-│   └── exercise_1.ipynb      # Jupyter notebooks for each exercise
-├── module_2/
-│   └── exercise_2.ipynb
-└── ...
+├── requirements.txt
+├── Common Plot Applications/
+│   └── data
+│   └── .ipynb
+├── Pandas/
+│   └── data
+│   └── image
+│   └── .ipynb
+├── Matplotlib/
+│   └── data
+│   └── image
+│   └── .ipynb
+└── .gitignore
 ```
 
 ## Technologies Used
 
 *   **Python**
+*   **numpy**
 *   **pandas** - Data analysis and manipulation tool.
 *   **Matplotlib** - Comprehensive library for creating static, animated, and interactive visualizations.
 
@@ -46,8 +54,8 @@ To run the code in this repository, you will need to have Python installed along
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/agik20/python-for-visualization.git
+    cd python-for-visualization
     ```
 
 2.  **Set up a virtual environment (recommended):**
@@ -60,7 +68,7 @@ To run the code in this repository, you will need to have Python installed along
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: If a `requirements.txt` file is not present, you can install the core libraries manually: `pip install pandas matplotlib jupyter`)*
+    *(Note: If a `requirements.txt` file is not present, you can install the core libraries manually: `pip install pandas numpy matplotlib jupyter`)*
 
 4.  **Launch Jupyter Notebook:**
     ```bash
