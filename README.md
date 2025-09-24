@@ -20,7 +20,7 @@ Key topics covered include:
 ## About the Course
 
 This course was created by **Madecraft**. You can find the original course on LinkedIn Learning:
-[Python for Data Visualization on LinkedIn Learning](https://www.linkedin.com/learning/python-for-data-visualization)
+[Python for Data Visualization on LinkedIn Learning](https://www.linkedin.com/learning/python-for-data-visualization-2023/effectively-present-data-with-python?resume=false)
 
 ## Repository Structure
 
@@ -46,6 +46,7 @@ This course was created by **Madecraft**. You can find the original course on Li
 *   **Python**
 *   **numpy**
 *   **pandas** - Data analysis and manipulation tool.
+*   **seaborn**
 *   **Matplotlib** - Comprehensive library for creating static, animated, and interactive visualizations.
 
 ## Getting Started
@@ -68,7 +69,7 @@ To run the code in this repository, you will need to have Python installed along
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: If a `requirements.txt` file is not present, you can install the core libraries manually: `pip install pandas numpy matplotlib jupyter`)*
+    *(Note: If a `requirements.txt` file is not present, you can install the core libraries manually: `pip install pandas numpy seaborn matplotlib jupyter`)*
 
 4.  **Launch Jupyter Notebook:**
     ```bash
