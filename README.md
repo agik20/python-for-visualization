@@ -41,7 +41,7 @@ This course was created by **Madecraft**. You can find the original course on Li
 └── .gitignore
 ```
 
-## Technologies Used
+## Technologies Used    
 
 *   **Python**
 *   **numpy**
